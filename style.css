@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #ffe6f2;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #e75480;
+}
+
+.form {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, button {
+  margin: 10px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #e75480;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #d1466d;
+}
+
+#calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  justify-content: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.day {
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  min-height: 60px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.period {
+  background: #ffb6c1;
+}
+
+.fertile {
+  background: #c1f0c1;
+}

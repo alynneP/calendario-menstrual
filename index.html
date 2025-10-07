@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendário Menstrual</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🌸 Calendário Menstrual</h1>
+
+  <div class="form">
+    <label for="lastPeriod">Data da última menstruação:</label>
+    <input type="date" id="lastPeriod">
+
+    <label for="cycleLength">Duração do ciclo (em dias):</label>
+    <input type="number" id="cycleLength" value="28">
+
+    <button id="generateBtn">Gerar calendário</button>
+  </div>
+
+  <div id="calendar"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
